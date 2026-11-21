@@ -1,0 +1,134 @@
+[
+  {
+    "session": "batears_20261115_110640_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "f3956dcffc130f35ff32ddef09777d1da00d09f4ee902ac7b2038525faf93a13",
+    "full_rows": 455,
+    "full_present": 365,
+    "full_present_pct": 80.21978021978022,
+    "live_rows": 194,
+    "live_present": 142,
+    "span_s": 33.388,
+    "mean_interval_ms": 73.54185022026432,
+    "dt_p50_p95_max_ms": [
+      35.20000000000073,
+      248.87499999999832,
+      2100.3999999999996
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 188,
+    "nearest_live_residual_ms_max": 1685.4000000000015,
+    "both_present_pairs": 141,
+    "palm_difference_px_p50_p95": [
+      3.2256571423510256,
+      24.811207790029066
+    ],
+    "matched_hand_mismatch": 2,
+    "capture_minus_pts_offset_ms": 11403.5,
+    "raw_pts_alignment_residual_ms_std": 0.3012930485954108,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.5
+    ],
+    "blank_derived_columns": {
+      "t_res": 455,
+      "v_right": 455,
+      "v_up": 455,
+      "v_screen": 455,
+      "auto": 455
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 188,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_111016_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "e50e19251af1b804e3fa444f82c555ef8febfe4647db35be14b252213fd420e3",
+    "full_rows": 1822,
+    "full_present": 1671,
+    "full_present_pct": 91.71240395170143,
+    "live_rows": 1110,
+    "live_present": 997,
+    "span_s": 61.995400000000004,
+    "mean_interval_ms": 34.04470071389347,
+    "dt_p50_p95_max_ms": [
+      34.0,
+      43.19999999999709,
+      60.29999999999927
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 1108,
+    "nearest_live_residual_ms_max": 101.19999999999709,
+    "both_present_pairs": 996,
+    "palm_difference_px_p50_p95": [
+      2.4325951973833737,
+      11.577756973204105
+    ],
+    "matched_hand_mismatch": 8,
+    "capture_minus_pts_offset_ms": 13071.5,
+    "raw_pts_alignment_residual_ms_std": 0.2888133460813811,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.6000000000003638
+    ],
+    "blank_derived_columns": {
+      "t_res": 1822,
+      "v_right": 1822,
+      "v_up": 1822,
+      "v_screen": 1822,
+      "auto": 1822
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 1108,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_111911_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "e305fe05a721a43f43fd833d277478f79a0c36a53f98474b42f716a15fca4321",
+    "full_rows": 1355,
+    "full_present": 1191,
+    "full_present_pct": 87.89667896678966,
+    "live_rows": 862,
+    "live_present": 755,
+    "span_s": 46.23460000000001,
+    "mean_interval_ms": 34.1466765140325,
+    "dt_p50_p95_max_ms": [
+      34.0,
+      41.13499999999803,
+      54.0
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 860,
+    "nearest_live_residual_ms_max": 68.29999999999563,
+    "both_present_pairs": 751,
+    "palm_difference_px_p50_p95": [
+      2.638993747624332,
+      14.086216743787428
+    ],
+    "matched_hand_mismatch": 18,
+    "capture_minus_pts_offset_ms": 11402.400000000001,
+    "raw_pts_alignment_residual_ms_std": 0.29152310716622404,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.6000000000021828
+    ],
+    "blank_derived_columns": {
+      "t_res": 1355,
+      "v_right": 1355,
+      "v_up": 1355,
+      "v_screen": 1355,
+      "auto": 1355
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 860,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  }
+]

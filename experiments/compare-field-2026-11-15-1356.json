@@ -1,0 +1,418 @@
+{
+  "source_main_sha": "d7067e7cd0be7dfa7da407e609ba041e8e6d5c36",
+  "axes": "x left-right, y height, z depth",
+  "scope": "offline recorded display coordinates before soft limit; fixed final camera scale; not exact live panel; no WAV replay, no lag tuning, no fitting; overlapping windows and exploratory single-session block intervals",
+  "sessions": [
+    {
+      "session": "batears_20261115_123938_cmp_61f5",
+      "wav_seconds": 40.7,
+      "vision_rows": 778,
+      "present": 631,
+      "present_pct": 81.10539845758355,
+      "vision_span_s": 40.5865,
+      "vision_fps": 19.144296748918975,
+      "vision_dt_ms_p50_p95_max": [
+        58.400000000001455,
+        73.5199999999997,
+        305.5
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        42.599999999999454,
+        71.39500000000059,
+        315.0
+      ],
+      "holo_rows": 4079,
+      "holo_dt_ms_p50_p95_max": [
+        0.1000000000003638,
+        50.81500000000211,
+        312.6999999999998
+      ],
+      "camera_callback_fps": 19.144296748918975,
+      "camera_distance_cm_p50_p95_max": [
+        49.034972517919414,
+        73.07029224812254,
+        84.17302273698299
+      ],
+      "outside45_present_pct": 57.68621236133122,
+      "scale": 1.229442682537505,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.184,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115122206"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_123938_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 40.7,
+        "t0": 6009.1,
+        "t0_first_callback": 6040.27,
+        "t0_end_anchored": 6009.1,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_123938_cmp_61f5_vision.csv": "8bdea477de8b07390266c16db9aaab30f622fbe525a6ce119e2aea1dad3b25f1",
+        "batears_20261115_123938_cmp_61f5_holo.csv": "a236d5870f0509ff6ad79976870f066bf0169c796c94ee776dd171b959a05bc0",
+        "batears_20261115_123938_cmp_61f5_frames.csv": "a2a6a2c643904365c0d878bedc00a3ab7b4eb07b5be545933e61bd1dd413ca81",
+        "batears_20261115_123938_cmp_61f5.json": "5bcd5d8a3d96a15f7c930dd88b348d491d320396b9926956c40978bee4e062e8",
+        "batears_20261115_123938_cmp_61f5_vision_full.csv": "f155788d5be1fae239f2ed6d324e66b2ba7d067f5b1c066833f19d48d0a3f829",
+        "batears_20261115_123938_cmp_61f5_vision_full_flags.csv": "fdc1f57a4e4e966bcba88dd0a48179bd3d07181465d92221aae8384a36897e34"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 9486.9,
+          "relative_s": 3.4833999999999996,
+          "step_cm": 9.720076542908497
+        },
+        {
+          "t_ms": 9866.7,
+          "relative_s": 3.863200000000001,
+          "step_cm": 28.27038416788849
+        },
+        {
+          "t_ms": 19310.1,
+          "relative_s": 13.306599999999998,
+          "step_cm": 21.036841326587034
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 225,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          2.4031595234719267,
+          3.019875445838991,
+          2.327554768070318
+        ],
+        "zero_motion_rmse_cm": [
+          4.529157777549342,
+          1.751531365367477,
+          4.734723509285522
+        ],
+        "pearson": [
+          0.8315682428741241,
+          0.25741185248079124,
+          0.8971430195662617
+        ],
+        "predicted_to_true_rms": [
+          0.7926320679248688,
+          1.71684636622474,
+          1.0766528875154033
+        ]
+      },
+      "paired_present_frames": 626,
+      "all_range_windows": 616,
+      "in_range_windows": 225,
+      "all_range": {
+        "rmse_cm": [
+          4.453884929064387,
+          4.416244614692943,
+          4.015565427300395
+        ],
+        "zero_motion_rmse_cm": [
+          6.453858036558691,
+          3.0241383484770488,
+          7.017411170171171
+        ],
+        "pearson": [
+          0.7401636770408532,
+          0.14791059996245595,
+          0.8211419140007122
+        ],
+        "predicted_to_true_rms": [
+          0.5852767041642621,
+          1.220269666758187,
+          0.7779662353700588
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          2.4031595234719267,
+          3.019875445838991,
+          2.327554768070318
+        ],
+        "zero_motion_rmse_cm": [
+          4.529157777549342,
+          1.751531365367477,
+          4.734723509285522
+        ],
+        "pearson": [
+          0.8315682428741241,
+          0.25741185248079124,
+          0.8971430195662617
+        ],
+        "predicted_to_true_rms": [
+          0.7926320679248688,
+          1.71684636622474,
+          1.0766528875154033
+        ]
+      },
+      "nonempty_5s_blocks": 6,
+      "within_session_rmse95_cm": [
+        [
+          1.8739619871542774,
+          3.088789417621764
+        ],
+        [
+          2.7263633690020863,
+          3.5454328407729467
+        ],
+        [
+          2.020369819016855,
+          3.1846490287589666
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -3.23887850418567,
+          -1.4256732352968227
+        ],
+        [
+          0.5953850805481022,
+          2.3477190343183283
+        ],
+        [
+          -2.9204654026060592,
+          -1.991727512798676
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        -3.5,
+        -0.9,
+        1.2
+      ],
+      "volume_ui": 1.2
+    }
+  ],
+  "holo_sessions": [],
+  "no_new_categorical_scores": true,
+  "quality_flag_sidecars": [
+    {
+      "file": "batears_20261115_092315_teach_61f5_vision_full_flags.csv",
+      "rows": 4219,
+      "flagged_rows": 67,
+      "flagged_pct": 1.5880540412420006,
+      "flag_counts": {
+        "left": 12,
+        "lowscore": 6,
+        "scale": 46,
+        "jump": 21,
+        "gap": 7
+      }
+    },
+    {
+      "file": "batears_20261115_110640_cmp_61f5_vision_full_flags.csv",
+      "rows": 365,
+      "flagged_rows": 46,
+      "flagged_pct": 12.602739726027398,
+      "flag_counts": {
+        "left": 8,
+        "scale": 11,
+        "gap": 30,
+        "lowscore": 11,
+        "jump": 2
+      }
+    },
+    {
+      "file": "batears_20261115_111016_cmp_61f5_vision_full_flags.csv",
+      "rows": 1671,
+      "flagged_rows": 100,
+      "flagged_pct": 5.9844404548174746,
+      "flag_counts": {
+        "jump": 45,
+        "gap": 6,
+        "scale": 45,
+        "left": 17,
+        "lowscore": 14
+      }
+    },
+    {
+      "file": "batears_20261115_111911_cmp_61f5_vision_full_flags.csv",
+      "rows": 1191,
+      "flagged_rows": 174,
+      "flagged_pct": 14.6095717884131,
+      "flag_counts": {
+        "lowscore": 48,
+        "jump": 54,
+        "left": 63,
+        "gap": 5,
+        "scale": 62
+      }
+    },
+    {
+      "file": "batears_20261115_112204_cmp_61f5_vision_full_flags.csv",
+      "rows": 27,
+      "flagged_rows": 4,
+      "flagged_pct": 14.814814814814815,
+      "flag_counts": {
+        "left": 3,
+        "scale": 1,
+        "gap": 1,
+        "lowscore": 1,
+        "jump": 2
+      }
+    },
+    {
+      "file": "batears_20261115_112252_cmp_61f5_vision_full_flags.csv",
+      "rows": 949,
+      "flagged_rows": 163,
+      "flagged_pct": 17.175974710221286,
+      "flag_counts": {
+        "left": 48,
+        "lowscore": 40,
+        "scale": 42,
+        "jump": 93,
+        "gap": 5
+      }
+    },
+    {
+      "file": "batears_20261115_112658_cmp_61f5_vision_full_flags.csv",
+      "rows": 952,
+      "flagged_rows": 82,
+      "flagged_pct": 8.61344537815126,
+      "flag_counts": {
+        "scale": 38,
+        "left": 25,
+        "lowscore": 18,
+        "jump": 28,
+        "gap": 6
+      }
+    },
+    {
+      "file": "batears_20261115_112943_cmp_61f5_vision_full_flags.csv",
+      "rows": 474,
+      "flagged_rows": 163,
+      "flagged_pct": 34.38818565400844,
+      "flag_counts": {
+        "left": 75,
+        "scale": 23,
+        "lowscore": 39,
+        "gap": 6,
+        "jump": 67
+      }
+    },
+    {
+      "file": "batears_20261115_113429_cmp_61f5_vision_full_flags.csv",
+      "rows": 769,
+      "flagged_rows": 23,
+      "flagged_pct": 2.990897269180754,
+      "flag_counts": {
+        "lowscore": 12,
+        "left": 7,
+        "scale": 15,
+        "gap": 2,
+        "jump": 1
+      }
+    },
+    {
+      "file": "batears_20261115_113747_cmp_61f5_vision_full_flags.csv",
+      "rows": 741,
+      "flagged_rows": 31,
+      "flagged_pct": 4.183535762483131,
+      "flag_counts": {
+        "left": 11,
+        "scale": 17,
+        "gap": 1,
+        "lowscore": 7,
+        "jump": 3
+      }
+    },
+    {
+      "file": "batears_20261115_120410_cmp_61f5_vision_full_flags.csv",
+      "rows": 835,
+      "flagged_rows": 49,
+      "flagged_pct": 5.868263473053892,
+      "flag_counts": {
+        "left": 14,
+        "lowscore": 15,
+        "jump": 3,
+        "gap": 21,
+        "scale": 11
+      }
+    },
+    {
+      "file": "batears_20261115_123938_cmp_61f5_vision_full_flags.csv",
+      "rows": 978,
+      "flagged_rows": 10,
+      "flagged_pct": 1.0224948875255624,
+      "flag_counts": {
+        "scale": 2,
+        "lowscore": 3,
+        "left": 2,
+        "jump": 5,
+        "gap": 1
+      }
+    }
+  ],
+  "quality_flag_semantics": "Producer/threshold documentation not provided; diagnostic counts only, original rows retained, no exclusions or relabeling performed.",
+  "new_reextract_audit": {
+    "session": "batears_20261115_123938_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "f155788d5be1fae239f2ed6d324e66b2ba7d067f5b1c066833f19d48d0a3f829",
+    "full_rows": 1199,
+    "full_present": 978,
+    "full_present_pct": 81.56797331109257,
+    "live_rows": 778,
+    "live_present": 631,
+    "span_s": 40.701299999999996,
+    "mean_interval_ms": 33.97437395659433,
+    "dt_p50_p95_max_ms": [
+      34.0,
+      40.61500000000504,
+      60.899999999999636
+    ],
+    "nonpositive_dt": 1,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 779,
+    "nearest_live_residual_ms_max": 0.0,
+    "both_present_pairs": 631,
+    "palm_difference_px_p50_p95": [
+      1.6959999999999864,
+      5.096183945344257
+    ],
+    "matched_hand_mismatch": 2,
+    "capture_minus_pts_offset_ms": 6007.800000000003,
+    "raw_pts_alignment_residual_ms_std": 0.28715737707060407,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.6999999999970896
+    ],
+    "blank_derived_columns": {
+      "t_res": 1199,
+      "v_right": 1199,
+      "v_up": 1199,
+      "v_screen": 1199,
+      "auto": 1199
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 778,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  "session_in_current_training_manifest": true
+}

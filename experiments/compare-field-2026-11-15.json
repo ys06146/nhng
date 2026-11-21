@@ -1,0 +1,1394 @@
+{
+  "source_main_sha": "25d4aaad29113cdae4e7cb5ad45fa48b0c7c4a98",
+  "axes": "x left-right, y height, z depth",
+  "scope": "offline recorded display coordinates before soft limit; fixed final camera scale; not exact live panel; no WAV replay, no lag tuning, no fitting; overlapping windows and exploratory single-session block intervals",
+  "sessions": [
+    {
+      "session": "batears_20261115_110640_cmp_61f5",
+      "wav_seconds": 35.84,
+      "vision_rows": 194,
+      "present": 142,
+      "present_pct": 73.19587628865979,
+      "vision_span_s": 35.043699999999994,
+      "vision_fps": 5.507409320362862,
+      "vision_dt_ms_p50_p95_max": [
+        104.79999999999927,
+        666.1799999999988,
+        2542.699999999999
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        113.20000000000073,
+        230.01000000000087,
+        1576.5
+      ],
+      "holo_rows": 3590,
+      "holo_dt_ms_p50_p95_max": [
+        0.10000000000582077,
+        68.63999999999938,
+        1588.300000000001
+      ],
+      "camera_callback_fps": 5.507409320362862,
+      "camera_distance_cm_p50_p95_max": [
+        41.74415510999356,
+        52.80875008685687,
+        63.76850895086276
+      ],
+      "outside45_present_pct": 36.61971830985915,
+      "scale": 1.3321394723407902,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_110640_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 35.84,
+        "t0": 12947.97,
+        "via": "scriptprocessor"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_110640_cmp_61f5_vision.csv": "4187247e244ff4f86c339a33e15feea768302a9a9fec2a5172bcca73229914b3",
+        "batears_20261115_110640_cmp_61f5_frames.csv": "da67805d31e21e055790cd9a1e7cb1a827e6548cd815e78577a44956be7c3a0e",
+        "batears_20261115_110640_cmp_61f5_holo.csv": "533e15d49218a47980f6e6469f777cdb0f0cb6351bce3a4aa5bc6ce2187b2249",
+        "batears_20261115_110640_cmp_61f5.json": "b8daa4c3da08188331154c12a185e3ddf10da92ad034c8de807a8ef656fcd2a4",
+        "batears_20261115_110640_cmp_61f5_vision_full.csv": "f3956dcffc130f35ff32ddef09777d1da00d09f4ee902ac7b2038525faf93a13"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 14246.2,
+          "relative_s": 2.843200000000001,
+          "step_cm": 12.806948777909591
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 37,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          3.455672598416758,
+          3.716334653043088,
+          3.822482793663725
+        ],
+        "zero_motion_rmse_cm": [
+          5.2983327622167575,
+          1.5233240448910108,
+          6.691933702882495
+        ],
+        "pearson": [
+          0.7578565024969899,
+          0.468797344633309,
+          0.8383671507329254
+        ],
+        "predicted_to_true_rms": [
+          0.9179484916065119,
+          2.7450809478654,
+          1.002737765389218
+        ]
+      },
+      "paired_present_frames": 123,
+      "all_range_windows": 72,
+      "in_range_windows": 37,
+      "all_range": {
+        "rmse_cm": [
+          3.5754408127893607,
+          3.4893714475201696,
+          4.576683910561419
+        ],
+        "zero_motion_rmse_cm": [
+          5.3559319671880505,
+          1.528429384368959,
+          7.133013853229038
+        ],
+        "pearson": [
+          0.7529795633572188,
+          0.3469366311151803,
+          0.768480523375928
+        ],
+        "predicted_to_true_rms": [
+          0.8623637834938922,
+          2.435512662070563,
+          0.8269382664800602
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          3.455672598416758,
+          3.716334653043088,
+          3.822482793663725
+        ],
+        "zero_motion_rmse_cm": [
+          5.2983327622167575,
+          1.5233240448910108,
+          6.691933702882495
+        ],
+        "pearson": [
+          0.7578565024969899,
+          0.468797344633309,
+          0.8383671507329254
+        ],
+        "predicted_to_true_rms": [
+          0.9179484916065119,
+          2.7450809478654,
+          1.002737765389218
+        ]
+      },
+      "nonempty_5s_blocks": 5,
+      "within_session_rmse95_cm": [
+        [
+          2.1917119854297744,
+          4.605667908695464
+        ],
+        [
+          2.498257400672867,
+          4.700642569394483
+        ],
+        [
+          3.4725437453175063,
+          4.151352405098688
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -3.5679100687215897,
+          -0.38385730492160164
+        ],
+        [
+          0.8528257213097317,
+          3.182813130572063
+        ],
+        [
+          -3.793440893644785,
+          -1.9807318896941268
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        -5.7,
+        -4.4,
+        -2.8
+      ],
+      "volume_ui": 1.2
+    },
+    {
+      "session": "batears_20261115_111016_cmp_61f5",
+      "wav_seconds": 62.04,
+      "vision_rows": 1110,
+      "present": 997,
+      "present_pct": 89.81981981981981,
+      "vision_span_s": 62.096599999999995,
+      "vision_fps": 17.85927087795467,
+      "vision_dt_ms_p50_p95_max": [
+        64.0,
+        101.80000000000291,
+        138.0
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        59.19999999999709,
+        97.66500000000158,
+        145.90000000000146
+      ],
+      "holo_rows": 6202,
+      "holo_dt_ms_p50_p95_max": [
+        0.09999999999854481,
+        59.39999999999418,
+        124.20000000000437
+      ],
+      "camera_callback_fps": 17.85927087795467,
+      "camera_distance_cm_p50_p95_max": [
+        45.4580963997701,
+        74.72321832484629,
+        86.15859699455326
+      ],
+      "outside45_present_pct": 51.55466399197593,
+      "scale": 1.5109505371915173,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_111016_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 62.04,
+        "t0": 13069.07,
+        "via": "scriptprocessor"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_111016_cmp_61f5_vision_full.csv": "e50e19251af1b804e3fa444f82c555ef8febfe4647db35be14b252213fd420e3",
+        "batears_20261115_111016_cmp_61f5.json": "0c2ab7345f6a1c755e568107e78fb60cf49eb567c9f89db5893c5e5757b8cfb5",
+        "batears_20261115_111016_cmp_61f5_frames.csv": "4958c73c7ffe7df27ec62e4bf2b910398332bd8962361c41915409ef0fc4286a",
+        "batears_20261115_111016_cmp_61f5_holo.csv": "15a28bb21402bd677dbb5e533124a45e6affa446d6c8777c79a2a0b4319160e6",
+        "batears_20261115_111016_cmp_61f5_vision.csv": "bfa0315eae836f7c516e05b63656f472c2261b920795b848d23753540b8185e5"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 13712.6,
+          "relative_s": 0.6403000000000011,
+          "step_cm": 20.63588551528623
+        },
+        {
+          "t_ms": 21215.4,
+          "relative_s": 8.143100000000002,
+          "step_cm": 20.101891527913487
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 351,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          3.226472090662595,
+          4.129582161555616,
+          4.410501562192415
+        ],
+        "zero_motion_rmse_cm": [
+          6.342054551067755,
+          3.30473681449667,
+          5.591235511829253
+        ],
+        "pearson": [
+          0.8662308094419369,
+          0.207410274949098,
+          0.6703738292865589
+        ],
+        "predicted_to_true_rms": [
+          0.9405061635308495,
+          0.9874081038751896,
+          0.9179161253299414
+        ]
+      },
+      "paired_present_frames": 973,
+      "all_range_windows": 935,
+      "in_range_windows": 351,
+      "all_range": {
+        "rmse_cm": [
+          4.465366366236276,
+          6.296576884241296,
+          5.491648650473309
+        ],
+        "zero_motion_rmse_cm": [
+          6.4544939848730705,
+          6.28557446362632,
+          8.478364800406615
+        ],
+        "pearson": [
+          0.7349316238201191,
+          0.31049142499211074,
+          0.7635059468124133
+        ],
+        "predicted_to_true_rms": [
+          0.8746726877124592,
+          0.6261543314760205,
+          0.7135474513912167
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          3.226472090662595,
+          4.129582161555616,
+          4.410501562192415
+        ],
+        "zero_motion_rmse_cm": [
+          6.342054551067755,
+          3.30473681449667,
+          5.591235511829253
+        ],
+        "pearson": [
+          0.8662308094419369,
+          0.207410274949098,
+          0.6703738292865589
+        ],
+        "predicted_to_true_rms": [
+          0.9405061635308495,
+          0.9874081038751896,
+          0.9179161253299414
+        ]
+      },
+      "nonempty_5s_blocks": 10,
+      "within_session_rmse95_cm": [
+        [
+          2.6944061153153234,
+          3.70825929263189
+        ],
+        [
+          3.5229458352042164,
+          4.762555693676359
+        ],
+        [
+          3.7303945655083934,
+          5.143099319737622
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -4.390242251054768,
+          -1.9215176637727727
+        ],
+        [
+          0.09898092253778575,
+          1.775012883460318
+        ],
+        [
+          -2.072392794173953,
+          -0.3359861676074303
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        2.1,
+        3.0,
+        4.0
+      ],
+      "volume_ui": 1.2
+    },
+    {
+      "session": "batears_20261115_111911_cmp_61f5",
+      "wav_seconds": 46.25,
+      "vision_rows": 862,
+      "present": 755,
+      "present_pct": 87.58700696055685,
+      "vision_span_s": 46.302899999999994,
+      "vision_fps": 18.59494761667196,
+      "vision_dt_ms_p50_p95_max": [
+        62.70000000000073,
+        75.79999999999563,
+        111.89999999999782
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        46.30000000000291,
+        70.79000000000268,
+        110.0
+      ],
+      "holo_rows": 4629,
+      "holo_dt_ms_p50_p95_max": [
+        0.09999999999854481,
+        53.20000000000073,
+        121.29999999999927
+      ],
+      "camera_callback_fps": 18.59494761667196,
+      "camera_distance_cm_p50_p95_max": [
+        34.05430428418815,
+        51.201962452738194,
+        63.3423168301208
+      ],
+      "outside45_present_pct": 14.172185430463577,
+      "scale": 1.3350400456416178,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_111911_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 46.25,
+        "t0": 11394.97,
+        "via": "scriptprocessor"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_111911_cmp_61f5_vision.csv": "cedfcd3cb1a808b5a6a57ac2415eb6d895a3e0d8153e3fbd166b18f20c4699f5",
+        "batears_20261115_111911_cmp_61f5_vision_full.csv": "e305fe05a721a43f43fd833d277478f79a0c36a53f98474b42f716a15fca4321",
+        "batears_20261115_111911_cmp_61f5.json": "1dbb4ac828c7b82b7160320bee10e81046cad61a1d10e27cb2f1f42209f2dca1",
+        "batears_20261115_111911_cmp_61f5_holo.csv": "f28469194fecab5d6aef5086940291e28343d5efad68215b9d64a8848bd712fb",
+        "batears_20261115_111911_cmp_61f5_frames.csv": "8304ddfc55d75d2e1be051613799a7833c156304def4a713037cf7f7349d54fe"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 11885.0,
+          "relative_s": 0.4682000000000007,
+          "step_cm": 19.843834432891242
+        },
+        {
+          "t_ms": 17236.4,
+          "relative_s": 5.819600000000002,
+          "step_cm": 17.31205216027262
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 593,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          2.4498706060824453,
+          4.530517749563572,
+          3.8231325338226334
+        ],
+        "zero_motion_rmse_cm": [
+          3.4613674168875015,
+          6.0749194020082875,
+          4.4288197084550625
+        ],
+        "pearson": [
+          0.7064236021427431,
+          0.7803741123973943,
+          0.5643844787886003
+        ],
+        "predicted_to_true_rms": [
+          0.7392601906172982,
+          0.3740724905929434,
+          0.8143909182115004
+        ]
+      },
+      "paired_present_frames": 752,
+      "all_range_windows": 732,
+      "in_range_windows": 593,
+      "all_range": {
+        "rmse_cm": [
+          3.07357598137214,
+          4.854700007921043,
+          4.664939438973142
+        ],
+        "zero_motion_rmse_cm": [
+          3.7146787065165063,
+          6.400740164025395,
+          5.77318601463764
+        ],
+        "pearson": [
+          0.5895544266357508,
+          0.7340440832812154,
+          0.5973027456050459
+        ],
+        "predicted_to_true_rms": [
+          0.7693521233606231,
+          0.3969420952267909,
+          0.697693949993868
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          2.4498706060824453,
+          4.530517749563572,
+          3.8231325338226334
+        ],
+        "zero_motion_rmse_cm": [
+          3.4613674168875015,
+          6.0749194020082875,
+          4.4288197084550625
+        ],
+        "pearson": [
+          0.7064236021427431,
+          0.7803741123973943,
+          0.5643844787886003
+        ],
+        "predicted_to_true_rms": [
+          0.7392601906172982,
+          0.3740724905929434,
+          0.8143909182115004
+        ]
+      },
+      "nonempty_5s_blocks": 9,
+      "within_session_rmse95_cm": [
+        [
+          1.8398490368806755,
+          3.014049545751339
+        ],
+        [
+          3.9102884710843075,
+          5.095859436203086
+        ],
+        [
+          2.3164656824318333,
+          5.714577791864919
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -1.3164706041829213,
+          -0.6370902691174134
+        ],
+        [
+          -1.8200780115918855,
+          -1.2431455203263466
+        ],
+        [
+          -1.0095148196773587,
+          -0.18040190811223888
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        -1.1,
+        1.9,
+        3.6
+      ],
+      "volume_ui": 1.2
+    },
+    {
+      "session": "batears_20261115_112204_cmp_61f5",
+      "wav_seconds": 2.82,
+      "vision_rows": 60,
+      "present": 20,
+      "present_pct": 33.333333333333336,
+      "vision_span_s": 2.856300000000001,
+      "vision_fps": 20.656093547596534,
+      "vision_dt_ms_p50_p95_max": [
+        35.70000000000073,
+        70.95999999999967,
+        101.39999999999964
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        38.850000000000364,
+        57.01000000000053,
+        70.10000000000036
+      ],
+      "holo_rows": 286,
+      "holo_dt_ms_p50_p95_max": [
+        0.1000000000003638,
+        48.23999999999943,
+        69.89999999999964
+      ],
+      "camera_callback_fps": 20.656093547596534,
+      "camera_distance_cm_p50_p95_max": [
+        47.11679578291302,
+        51.99821664927764,
+        52.269054557635776
+      ],
+      "outside45_present_pct": 60.0,
+      "scale": 1.2740025946905937,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_112204_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 2.82,
+        "t0": 7863.2,
+        "t0_first_callback": 7875.87,
+        "t0_end_anchored": 7863.2,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_112204_cmp_61f5.json": "b99aeeee6849a56ddabc61768690e16afe3688e9e28b04a739748aa0b62c7ab3",
+        "batears_20261115_112204_cmp_61f5_vision.csv": "8725db557a1da0d036f557418141c92542473ae24c9008066c7611c8edd676e1",
+        "batears_20261115_112204_cmp_61f5_frames.csv": "5faab2d6feb798887c46ba4533ad1a7f0be5c179831414b5bdf08d22124f018b",
+        "batears_20261115_112204_cmp_61f5_holo.csv": "e562860bf9ed3626581003cd505ac725ab1bb5359772b4ced9b4605a72cc897e"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 8268.3,
+          "relative_s": 0.3759999999999991,
+          "step_cm": 20.68586812294809
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 0,
+        "excluded": 1,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results"
+      },
+      "paired_present_frames": 20,
+      "all_range_windows": 14,
+      "in_range_windows": 1,
+      "all_range": {
+        "rmse_cm": [
+          5.922452238417137,
+          6.030941230880135,
+          4.321746570230754
+        ],
+        "zero_motion_rmse_cm": [
+          1.2081821536440205,
+          2.179774346558625,
+          7.015933669355827
+        ],
+        "pearson": [
+          -0.4720630873223427,
+          0.1820597958742071,
+          0.8645038861308941
+        ],
+        "predicted_to_true_rms": [
+          4.32464855556173,
+          2.536176356717205,
+          0.6947675936740755
+        ]
+      },
+      "levelDb_p10_p50_p90": [
+        -4.0,
+        -3.0,
+        0.0
+      ],
+      "volume_ui": 1.2
+    },
+    {
+      "session": "batears_20261115_112252_cmp_61f5",
+      "wav_seconds": 39,
+      "vision_rows": 573,
+      "present": 480,
+      "present_pct": 83.7696335078534,
+      "vision_span_s": 39.0201,
+      "vision_fps": 14.659111586079995,
+      "vision_dt_ms_p50_p95_max": [
+        67.69999999999891,
+        113.6749999999999,
+        583.0999999999985
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        70.69999999999709,
+        115.59999999999707,
+        172.20000000000073
+      ],
+      "holo_rows": 3906,
+      "holo_dt_ms_p50_p95_max": [
+        0.09999999999854481,
+        66.90000000000146,
+        180.20000000000073
+      ],
+      "camera_callback_fps": 14.659111586079995,
+      "camera_distance_cm_p50_p95_max": [
+        39.046934883489826,
+        51.77503625001512,
+        63.05465209681941
+      ],
+      "outside45_present_pct": 16.875,
+      "scale": 1.3092519541572765,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_112252_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 39,
+        "t0": 20271.57,
+        "t0_first_callback": 20271.57,
+        "t0_end_anchored": 20314.17,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_112252_cmp_61f5_frames.csv": "e67aa4dfefd21ad73ee4eefec58489e35b744edb42aca1795866323fd95e6513",
+        "batears_20261115_112252_cmp_61f5_holo.csv": "271dd81242205ec2718140cf0b2d77e0d70ab5fe5fa52e971abf3790553db883",
+        "batears_20261115_112252_cmp_61f5.json": "14a7ee1860da6f2db20774f30ca52effd7a4731a684bddb75a349600a0d67e3f",
+        "batears_20261115_112252_cmp_61f5_vision.csv": "037140b8a2b68dc7032836b77678274bced9029819840941a1c596002d17aece"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 38126.3,
+          "relative_s": 17.811600000000002,
+          "step_cm": 5.991023117965744
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 313,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          3.3397165121272407,
+          4.713386134402926,
+          4.0023403375417494
+        ],
+        "zero_motion_rmse_cm": [
+          5.671280666275263,
+          6.278002115232385,
+          3.9565127684451418
+        ],
+        "pearson": [
+          0.8130076163577324,
+          0.6661195315935093,
+          0.7267535114618431
+        ],
+        "predicted_to_true_rms": [
+          0.7255884040581687,
+          0.5795438715817913,
+          1.4693082628681617
+        ]
+      },
+      "paired_present_frames": 454,
+      "all_range_windows": 417,
+      "in_range_windows": 313,
+      "all_range": {
+        "rmse_cm": [
+          3.562586744322646,
+          5.42305207708318,
+          3.9214685133593092
+        ],
+        "zero_motion_rmse_cm": [
+          5.554497886397016,
+          7.126943032194761,
+          5.324998638436941
+        ],
+        "pearson": [
+          0.7712438569757709,
+          0.6538885179872301,
+          0.7989321259224357
+        ],
+        "predicted_to_true_rms": [
+          0.7455503532847837,
+          0.5716552321596264,
+          1.2249312270281616
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          3.3397165121272407,
+          4.713386134402926,
+          4.0023403375417494
+        ],
+        "zero_motion_rmse_cm": [
+          5.671280666275263,
+          6.278002115232385,
+          3.9565127684451418
+        ],
+        "pearson": [
+          0.8130076163577324,
+          0.6661195315935093,
+          0.7267535114618431
+        ],
+        "predicted_to_true_rms": [
+          0.7255884040581687,
+          0.5795438715817913,
+          1.4693082628681617
+        ]
+      },
+      "nonempty_5s_blocks": 8,
+      "within_session_rmse95_cm": [
+        [
+          2.5776606625210876,
+          4.31416741560771
+        ],
+        [
+          3.80722120212461,
+          5.814335911598528
+        ],
+        [
+          3.3095903517401917,
+          4.68224206620714
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -3.6667673588264176,
+          -0.9053369469835301
+        ],
+        [
+          -2.756451428951998,
+          -0.0017326327413988523
+        ],
+        [
+          -1.2079995308180864,
+          1.1595176377298737
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        -0.7,
+        1.8,
+        3.2
+      ],
+      "volume_ui": 1.2
+    },
+    {
+      "session": "batears_20261115_112658_cmp_61f5",
+      "wav_seconds": 37.21,
+      "vision_rows": 537,
+      "present": 468,
+      "present_pct": 87.15083798882682,
+      "vision_span_s": 37.3024,
+      "vision_fps": 14.369048640301964,
+      "vision_dt_ms_p50_p95_max": [
+        67.75,
+        112.52500000000009,
+        443.39999999999964
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        74.59999999999854,
+        117.4199999999997,
+        377.0
+      ],
+      "holo_rows": 3731,
+      "holo_dt_ms_p50_p95_max": [
+        0.09999999999854481,
+        70.55499999999917,
+        207.20000000000073
+      ],
+      "camera_callback_fps": 14.369048640301964,
+      "camera_distance_cm_p50_p95_max": [
+        43.96778421307485,
+        64.71566425809246,
+        74.6997590785566
+      ],
+      "outside45_present_pct": 46.15384615384615,
+      "scale": 1.315844332606428,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_112658_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 37.21,
+        "t0": 8334.37,
+        "t0_first_callback": 8372.77,
+        "t0_end_anchored": 8334.37,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_112658_cmp_61f5.json": "fee5fcbc9ac2f73181bef03ce6f71443e4a5b872807133d05951076c5bf5b379",
+        "batears_20261115_112658_cmp_61f5_frames.csv": "cb12b52507793510e09e6c3858a72886768c71c246b270222aa57aaa134a244a",
+        "batears_20261115_112658_cmp_61f5_vision.csv": "89411f07d67ba08098469a3c4a5f87b7f36fb279e4355d6d3ce1b8395b7875af",
+        "batears_20261115_112658_cmp_61f5_holo.csv": "7cfaf400c04fabf816c3c32ef7744d55d37fedb75e8b1b411bb2e0ba79ba6a91"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 9745.4,
+          "relative_s": 1.319699999999999,
+          "step_cm": 21.66034108688042
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 163,
+        "excluded": 2,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          3.554110406930632,
+          4.996764423052621,
+          4.494300281215774
+        ],
+        "zero_motion_rmse_cm": [
+          5.797458936952042,
+          5.063377118169787,
+          5.900368554419264
+        ],
+        "pearson": [
+          0.7305776913798113,
+          0.4411888198268229,
+          0.7503358903873477
+        ],
+        "predicted_to_true_rms": [
+          0.8093715788263485,
+          0.8241410195475096,
+          1.1261411988698908
+        ]
+      },
+      "paired_present_frames": 430,
+      "all_range_windows": 376,
+      "in_range_windows": 165,
+      "all_range": {
+        "rmse_cm": [
+          4.568946961512602,
+          5.8871270323511125,
+          5.248279296523087
+        ],
+        "zero_motion_rmse_cm": [
+          6.580046986141847,
+          6.2348177176524935,
+          8.26007294034564
+        ],
+        "pearson": [
+          0.7179977481265631,
+          0.44114166229249663,
+          0.7781854731476181
+        ],
+        "predicted_to_true_rms": [
+          0.6693930558235293,
+          0.7375430906723842,
+          0.8776928319879849
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          3.635336400140607,
+          5.246033755126656,
+          4.555892988802251
+        ],
+        "zero_motion_rmse_cm": [
+          5.7691132532866085,
+          5.039229955964002,
+          5.950941218843098
+        ],
+        "pearson": [
+          0.7148363967277207,
+          0.40666058214574996,
+          0.746924391704174
+        ],
+        "predicted_to_true_rms": [
+          0.8149161682784346,
+          0.8709493232071385,
+          1.1255278100609871
+        ]
+      },
+      "nonempty_5s_blocks": 6,
+      "within_session_rmse95_cm": [
+        [
+          2.834111466027703,
+          4.102842454092179
+        ],
+        [
+          4.567408181030027,
+          5.9769204268657905
+        ],
+        [
+          3.359451987295694,
+          5.56902632549422
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -2.98828902668336,
+          -1.654312676729075
+        ],
+        [
+          -1.2067689396223527,
+          2.1372091111141183
+        ],
+        [
+          -3.5378888309842305,
+          0.015124707715566288
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        -1.2,
+        -0.4,
+        0.4
+      ],
+      "volume_ui": 1.2
+    },
+    {
+      "session": "batears_20261115_112943_cmp_61f5",
+      "wav_seconds": 25.34,
+      "vision_rows": 445,
+      "present": 297,
+      "present_pct": 66.74157303370787,
+      "vision_span_s": 25.394600000000004,
+      "vision_fps": 17.48403203830735,
+      "vision_dt_ms_p50_p95_max": [
+        62.75,
+        103.80999999999328,
+        201.89999999999418
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        46.89999999999418,
+        111.69999999998834,
+        215.09999999997672
+      ],
+      "holo_rows": 2540,
+      "holo_dt_ms_p50_p95_max": [
+        0.10000000000582077,
+        53.74000000001102,
+        151.0
+      ],
+      "camera_callback_fps": 17.48403203830735,
+      "camera_distance_cm_p50_p95_max": [
+        29.94716599537835,
+        104.4773759374906,
+        124.59098345589499
+      ],
+      "outside45_present_pct": 9.764309764309765,
+      "scale": 1.3770988450595694,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115101840"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_112943_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 25.34,
+        "t0": 184578.47,
+        "t0_first_callback": 184578.47,
+        "t0_end_anchored": 184602.6,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_112943_cmp_61f5_holo.csv": "9e59fd3296419c4ab3dee96effd98231a041536b855d0b6f28d235f0312b020e",
+        "batears_20261115_112943_cmp_61f5_vision.csv": "935f79bd89f8b6954cf8738321dc1861b9f8a070b48295a006d50eebe23ea21e",
+        "batears_20261115_112943_cmp_61f5.json": "32eaa302afd79f5fd4dd3cc2761e7e5593b6fc4cb243d9c495475a6df21ed92a",
+        "batears_20261115_112943_cmp_61f5_frames.csv": "f7087e43d142bfc8ec62c1c8ec8d7c0c128d03ae9cb71b034d17c6fa3fb4aba3"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 185743.8,
+          "relative_s": 1.1800999999999766,
+          "step_cm": 40.55823597002217
+        },
+        {
+          "t_ms": 186063.3,
+          "relative_s": 1.4995999999999767,
+          "step_cm": 20.336657394960458
+        },
+        {
+          "t_ms": 187566.6,
+          "relative_s": 3.002899999999994,
+          "step_cm": 55.00276797580281
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 239,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          7.852766744340617,
+          6.973881922696436,
+          8.788092506258169
+        ],
+        "zero_motion_rmse_cm": [
+          3.6731838982805236,
+          6.94838896282932,
+          3.4811436174560226
+        ],
+        "pearson": [
+          0.46782521688587686,
+          0.3865517181809467,
+          0.12228532131684626
+        ],
+        "predicted_to_true_rms": [
+          2.4148569441406185,
+          0.7787505875198403,
+          2.4495907856549533
+        ]
+      },
+      "paired_present_frames": 293,
+      "all_range_windows": 268,
+      "in_range_windows": 239,
+      "all_range": {
+        "rmse_cm": [
+          7.65288850377102,
+          7.274148162245045,
+          9.163463231869494
+        ],
+        "zero_motion_rmse_cm": [
+          3.726121948582524,
+          7.171509563428267,
+          5.237775187890441
+        ],
+        "pearson": [
+          0.44478599377064815,
+          0.3608591418773295,
+          0.19660775772841024
+        ],
+        "predicted_to_true_rms": [
+          2.288367163953369,
+          0.7591348210567465,
+          1.6460978461624727
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          7.852766744340617,
+          6.973881922696436,
+          8.788092506258169
+        ],
+        "zero_motion_rmse_cm": [
+          3.6731838982805236,
+          6.94838896282932,
+          3.4811436174560226
+        ],
+        "pearson": [
+          0.46782521688587686,
+          0.3865517181809467,
+          0.12228532131684626
+        ],
+        "predicted_to_true_rms": [
+          2.4148569441406185,
+          0.7787505875198403,
+          2.4495907856549533
+        ]
+      },
+      "nonempty_5s_blocks": 4,
+      "within_session_rmse95_cm": [
+        [
+          2.4025730969201886,
+          10.49454955158403
+        ],
+        [
+          5.563545590136378,
+          10.29572245278286
+        ],
+        [
+          3.2016484025172076,
+          16.00486970079548
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          1.320273287589933,
+          5.365852921064523
+        ],
+        [
+          -2.502173728897912,
+          2.66899879900072
+        ],
+        [
+          -0.5106720056396377,
+          12.659165862794639
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        0.9,
+        4.3,
+        7.6
+      ],
+      "volume_ui": 1.2
+    }
+  ],
+  "holo_sessions": [
+    {
+      "session": "batears_20261115_102623_holo_61f5",
+      "seconds": 33.28,
+      "build": null,
+      "yReal": null,
+      "yGain": null,
+      "tau": 2,
+      "log_rows": 3339,
+      "log_widths": [
+        21
+      ],
+      "has_performance_clock": false,
+      "levelDb_median": -8.5,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    },
+    {
+      "session": "batears_20261115_102640_holo_61f5",
+      "seconds": 1.02,
+      "build": null,
+      "yReal": null,
+      "yGain": null,
+      "tau": 2,
+      "log_rows": 109,
+      "log_widths": [
+        21
+      ],
+      "has_performance_clock": false,
+      "levelDb_median": -6.2,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    },
+    {
+      "session": "batears_20261115_102750_holo_61f5",
+      "seconds": 16.98,
+      "build": "bat3d.js?v=20261115101840",
+      "yReal": true,
+      "yGain": 1.331,
+      "tau": 2,
+      "log_rows": 1704,
+      "log_widths": [
+        21
+      ],
+      "has_performance_clock": false,
+      "levelDb_median": -7.8,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    },
+    {
+      "session": "batears_20261115_103345_holo_61f5",
+      "seconds": 48.04,
+      "build": "bat3d.js?v=20261115101840",
+      "yReal": true,
+      "yGain": 1.331,
+      "tau": 2,
+      "log_rows": 4814,
+      "log_widths": [
+        21
+      ],
+      "has_performance_clock": false,
+      "levelDb_median": -0.4,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    },
+    {
+      "session": "batears_20261115_103531_holo_61f5",
+      "seconds": 29.01,
+      "build": "bat3d.js?v=20261115101840",
+      "yReal": true,
+      "yGain": 1.331,
+      "tau": 2,
+      "log_rows": 2902,
+      "log_widths": [
+        21
+      ],
+      "has_performance_clock": false,
+      "levelDb_median": -2.4,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    },
+    {
+      "session": "batears_20261115_110303_holo_61f5",
+      "seconds": 31.06,
+      "build": "bat3d.js?v=20261115101840",
+      "yReal": true,
+      "yGain": 1.331,
+      "tau": 2,
+      "log_rows": 3113,
+      "log_widths": [
+        22
+      ],
+      "has_performance_clock": true,
+      "levelDb_median": 2.5,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    }
+  ],
+  "no_new_categorical_scores": true
+}

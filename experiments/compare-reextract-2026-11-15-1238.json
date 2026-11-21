@@ -1,0 +1,266 @@
+[
+  {
+    "session": "batears_20261115_112204_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "0d20c8a933442af99326c10a4f62b9d441afe9194abe87fec5de6c001b30d959",
+    "full_rows": 84,
+    "full_present": 27,
+    "full_present_pct": 32.142857142857146,
+    "live_rows": 60,
+    "live_present": 20,
+    "span_s": 2.8226000000000004,
+    "mean_interval_ms": 34.00722891566266,
+    "dt_p50_p95_max_ms": [
+      34.0,
+      38.37000000000134,
+      41.899999999999636
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 59,
+    "nearest_live_residual_ms_max": 33.70000000000073,
+    "both_present_pairs": 20,
+    "palm_difference_px_p50_p95": [
+      1.4863369085565832,
+      4.56956317004077
+    ],
+    "matched_hand_mismatch": 0,
+    "capture_minus_pts_offset_ms": 7865.200000000001,
+    "raw_pts_alignment_residual_ms_std": 0.28704679628532803,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5999999999985448,
+      0.6999999999989086
+    ],
+    "blank_derived_columns": {
+      "t_res": 84,
+      "v_right": 84,
+      "v_up": 84,
+      "v_screen": 84,
+      "auto": 84
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 59,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_112252_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "fa5e6863762c45a37ef7b038862a8ea488668eaf92d1615036aafc844af7ed35",
+    "full_rows": 1120,
+    "full_present": 949,
+    "full_present_pct": 84.73214285714286,
+    "live_rows": 573,
+    "live_present": 480,
+    "span_s": 38.9189,
+    "mean_interval_ms": 34.780071492403934,
+    "dt_p50_p95_max_ms": [
+      34.0,
+      44.699999999997814,
+      480.59999999999854
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 572,
+    "nearest_live_residual_ms_max": 101.19999999999709,
+    "both_present_pairs": 478,
+    "palm_difference_px_p50_p95": [
+      3.3694726834714257,
+      32.79559172816142
+    ],
+    "matched_hand_mismatch": 17,
+    "capture_minus_pts_offset_ms": 20275.699999999997,
+    "raw_pts_alignment_residual_ms_std": 0.3027460732199187,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.5999999999985448
+    ],
+    "blank_derived_columns": {
+      "t_res": 1120,
+      "v_right": 1120,
+      "v_up": 1120,
+      "v_screen": 1120,
+      "auto": 1120
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 572,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_112658_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "ef5897430d31ec55e39094fdef748eba5a17b17f8584838fe9726e6e93c3655f",
+    "full_rows": 1081,
+    "full_present": 952,
+    "full_present_pct": 88.06660499537465,
+    "live_rows": 537,
+    "live_present": 468,
+    "span_s": 37.1285,
+    "mean_interval_ms": 34.37824074074074,
+    "dt_p50_p95_max_ms": [
+      33.900000000001455,
+      45.410000000001304,
+      345.2999999999993
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 534,
+    "nearest_live_residual_ms_max": 173.90000000000146,
+    "both_present_pairs": 464,
+    "palm_difference_px_p50_p95": [
+      2.956803415430853,
+      17.66858502375905
+    ],
+    "matched_hand_mismatch": 8,
+    "capture_minus_pts_offset_ms": 8210.5,
+    "raw_pts_alignment_residual_ms_std": 0.29583155150154516,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.5
+    ],
+    "blank_derived_columns": {
+      "t_res": 1081,
+      "v_right": 1081,
+      "v_up": 1081,
+      "v_screen": 1081,
+      "auto": 1081
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 534,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_112943_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "7b9a9b5e301b3fa61bffbe1c398b11dfe2de3f4040d1284288ab7933409549a3",
+    "full_rows": 743,
+    "full_present": 474,
+    "full_present_pct": 63.79542395693136,
+    "live_rows": 445,
+    "live_present": 297,
+    "span_s": 25.259899999999995,
+    "mean_interval_ms": 34.042991913746626,
+    "dt_p50_p95_max_ms": [
+      34.0,
+      42.39999999999418,
+      53.0
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 444,
+    "nearest_live_residual_ms_max": 134.70000000001164,
+    "both_present_pairs": 293,
+    "palm_difference_px_p50_p95": [
+      3.4937200803728032,
+      21.747937352455395
+    ],
+    "matched_hand_mismatch": 16,
+    "capture_minus_pts_offset_ms": 184561.4,
+    "raw_pts_alignment_residual_ms_std": 0.29424130605508514,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.5
+    ],
+    "blank_derived_columns": {
+      "t_res": 743,
+      "v_right": 743,
+      "v_up": 743,
+      "v_screen": 743,
+      "auto": 743
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 444,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_113747_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "55b9b0a79f4df151cb0c2898dee68a09da4bfc5c6fa9bc189978b2131f0aa745",
+    "full_rows": 906,
+    "full_present": 741,
+    "full_present_pct": 81.78807947019868,
+    "live_rows": 412,
+    "live_present": 361,
+    "span_s": 30.553600000000007,
+    "mean_interval_ms": 33.76088397790056,
+    "dt_p50_p95_max_ms": [
+      33.799999999995634,
+      45.20000000001164,
+      58.700000000004366
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 409,
+    "nearest_live_residual_ms_max": 268.5,
+    "both_present_pairs": 360,
+    "palm_difference_px_p50_p95": [
+      1.9973762830661048,
+      7.118185984916216
+    ],
+    "matched_hand_mismatch": 2,
+    "capture_minus_pts_offset_ms": 48453.100000000006,
+    "raw_pts_alignment_residual_ms_std": 0.2918854628158041,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.5999999999912689
+    ],
+    "blank_derived_columns": {
+      "t_res": 906,
+      "v_right": 906,
+      "v_up": 906,
+      "v_screen": 906,
+      "auto": 906
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 409,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  },
+  {
+    "session": "batears_20261115_120410_cmp_61f5",
+    "derived_not_new_session": true,
+    "full_sha256": "e3aa6d6ff24f71d4cbcfd144d42c02a75508715e61753af80eee7a93080d1aa0",
+    "full_rows": 1053,
+    "full_present": 835,
+    "full_present_pct": 79.29724596391263,
+    "live_rows": 521,
+    "live_present": 409,
+    "span_s": 41.223,
+    "mean_interval_ms": 39.18536121673004,
+    "dt_p50_p95_max_ms": [
+      34.600000000000364,
+      49.60000000000182,
+      889.1999999999971
+    ],
+    "nonpositive_dt": 0,
+    "frame_index_gaps": 0,
+    "matched_callback_rows": 519,
+    "nearest_live_residual_ms_max": 102.10000000000582,
+    "both_present_pairs": 399,
+    "palm_difference_px_p50_p95": [
+      2.12745857774003,
+      12.161401700758844
+    ],
+    "matched_hand_mismatch": 4,
+    "capture_minus_pts_offset_ms": 23064.699999999997,
+    "raw_pts_alignment_residual_ms_std": 0.3050845416101917,
+    "raw_pts_alignment_abs_residual_p95_max_ms": [
+      0.5,
+      0.5999999999985448
+    ],
+    "blank_derived_columns": {
+      "t_res": 1053,
+      "v_right": 1053,
+      "v_up": 1053,
+      "v_screen": 1053,
+      "auto": 1053
+    },
+    "warning": "Alignment uses callbacks and shared model-derived palm, not independent optical onset or audio hardware delay; raw WEBM not decoded in this audit.",
+    "live_within3ms": 519,
+    "live_before_full_first": 0,
+    "overlap_nearest_residual_max_ms": 0.0
+  }
+]

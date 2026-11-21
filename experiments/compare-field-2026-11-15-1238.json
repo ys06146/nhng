@@ -1,0 +1,463 @@
+{
+  "source_main_sha": "a921fe86874fe86fcdcd5d3cade1f43b6e91633d",
+  "axes": "x left-right, y height, z depth",
+  "scope": "offline recorded display coordinates before soft limit; fixed final camera scale; not exact live panel; no WAV replay, no lag tuning, no fitting; overlapping windows and exploratory single-session block intervals",
+  "sessions": [
+    {
+      "session": "batears_20261115_113747_cmp_61f5",
+      "wav_seconds": 30.63,
+      "vision_rows": 412,
+      "present": 361,
+      "present_pct": 87.62135922330097,
+      "vision_span_s": 30.822100000000006,
+      "vision_fps": 13.334587844436294,
+      "vision_dt_ms_p50_p95_max": [
+        67.90000000000146,
+        135.09999999999854,
+        239.0
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        77.84999999999854,
+        137.87500000000287,
+        195.60000000000582
+      ],
+      "holo_rows": 3062,
+      "holo_dt_ms_p50_p95_max": [
+        0.09999999999854481,
+        76.29999999999563,
+        253.60000000000582
+      ],
+      "camera_callback_fps": 13.334587844436294,
+      "camera_distance_cm_p50_p95_max": [
+        43.23170256399453,
+        66.48048825759776,
+        89.20705182695049
+      ],
+      "outside45_present_pct": 39.88919667590028,
+      "scale": 1.3844980107031122,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.331,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115110158"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_113747_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 30.63,
+        "t0": 48461.47,
+        "t0_first_callback": 48461.47,
+        "t0_end_anchored": 48481.93,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_113747_cmp_61f5_holo.csv": "9679a2a97d2aaa1ef55227749b8fbbfe2723d4612725aba59e4c75c059483828",
+        "batears_20261115_113747_cmp_61f5_vision_full.csv": "55b9b0a79f4df151cb0c2898dee68a09da4bfc5c6fa9bc189978b2131f0aa745",
+        "batears_20261115_113747_cmp_61f5_frames.csv": "d4042a7e6094cd64e0abbd26bda84e84856cb3e8708a1fc13ef613d15766a710",
+        "batears_20261115_113747_cmp_61f5_vision.csv": "b21ad354cf0d6eddb0c6179888ae91af424caa81d9de0ca0b044c335577e8378",
+        "batears_20261115_113747_cmp_61f5.json": "e5bc65c3494bd0a50203748a8c3242ad03dd54ec34f1dac7e86b580b635cc0da"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 49466.9,
+          "relative_s": 1.0159000000000014,
+          "step_cm": 22.658753209300816
+        },
+        {
+          "t_ms": 50878.3,
+          "relative_s": 2.427300000000003,
+          "step_cm": 23.649116558552457
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 172,
+        "excluded": 0,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          3.447412328141127,
+          3.2191757313918137,
+          3.421962108968699
+        ],
+        "zero_motion_rmse_cm": [
+          3.457370920523778,
+          4.301779274463714,
+          3.4405193635160582
+        ],
+        "pearson": [
+          0.29939171433727707,
+          0.7355000233712105,
+          0.4549843700909939
+        ],
+        "predicted_to_true_rms": [
+          0.6745433165992705,
+          0.45421707013523865,
+          0.8812622727437704
+        ]
+      },
+      "paired_present_frames": 334,
+      "all_range_windows": 313,
+      "in_range_windows": 172,
+      "all_range": {
+        "rmse_cm": [
+          3.8542434618271497,
+          3.085334863878014,
+          4.735436336753356
+        ],
+        "zero_motion_rmse_cm": [
+          3.642078568023297,
+          4.010351073121148,
+          5.786428927251111
+        ],
+        "pearson": [
+          0.22613430924290256,
+          0.666598684493369,
+          0.5765219791153032
+        ],
+        "predicted_to_true_rms": [
+          0.6421849574887629,
+          0.4888239286808479,
+          0.5393737735501393
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          3.447412328141127,
+          3.2191757313918137,
+          3.421962108968699
+        ],
+        "zero_motion_rmse_cm": [
+          3.457370920523778,
+          4.301779274463714,
+          3.4405193635160582
+        ],
+        "pearson": [
+          0.29939171433727707,
+          0.7355000233712105,
+          0.4549843700909939
+        ],
+        "predicted_to_true_rms": [
+          0.6745433165992705,
+          0.45421707013523865,
+          0.8812622727437704
+        ]
+      },
+      "nonempty_5s_blocks": 5,
+      "within_session_rmse95_cm": [
+        [
+          2.299963354082851,
+          4.147393644840685
+        ],
+        [
+          1.7798569903940218,
+          4.054246903675972
+        ],
+        [
+          2.2444577931170757,
+          4.529834964657423
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -0.4408179313839522,
+          0.583013056196588
+        ],
+        [
+          -1.7049409242927647,
+          -0.25080441927175334
+        ],
+        [
+          -0.8981311612959622,
+          0.632623718849683
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        5.3,
+        6.3,
+        7.0
+      ],
+      "volume_ui": 1.2,
+      "in_current_gated_training_manifest": true
+    },
+    {
+      "session": "batears_20261115_120410_cmp_61f5",
+      "wav_seconds": 41.3,
+      "vision_rows": 521,
+      "present": 409,
+      "present_pct": 78.50287907869482,
+      "vision_span_s": 41.3203,
+      "vision_fps": 12.58461337405585,
+      "vision_dt_ms_p50_p95_max": [
+        68.80000000000109,
+        140.37000000000046,
+        889.1999999999971
+      ],
+      "processing_latency_ms_p50_p95_max": [
+        79.09999999999854,
+        140.5,
+        450.7000000000007
+      ],
+      "holo_rows": 4134,
+      "holo_dt_ms_p50_p95_max": [
+        0.09999999999854481,
+        72.84000000000229,
+        293.5
+      ],
+      "camera_callback_fps": 12.58461337405585,
+      "camera_distance_cm_p50_p95_max": [
+        48.4882755182116,
+        89.18550144045068,
+        95.64975381042699
+      ],
+      "outside45_present_pct": 54.76772616136919,
+      "scale": 1.2555663423000916,
+      "holo": {
+        "tau": 2,
+        "smooth": 1,
+        "amp": "half",
+        "yReal": true,
+        "yGain": 1.184,
+        "zone": [
+          0.18,
+          0.12,
+          0.15
+        ],
+        "filter": [
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ],
+          [
+            1.5,
+            60
+          ]
+        ],
+        "build": "bat3d.js?v=20261115115915"
+      },
+      "wav_timing": {
+        "file": "batears_20261115_120410_cmp_61f5.wav",
+        "rate": 48000,
+        "channels": 2,
+        "seconds": 41.3,
+        "t0": 23064.87,
+        "t0_first_callback": 23064.87,
+        "t0_end_anchored": 23082.87,
+        "via": "scriptprocessor",
+        "note": "t0 = the earlier of the two estimates (callbacks can only be late)"
+      },
+      "near_window_method": "fixed final stored camera scale; nearest logged pre-soft-limit display position within30ms; target250ms \u00b150ms; endpoints camera distance<=45cm; no minimum movement filter",
+      "source_hashes": {
+        "batears_20261115_120410_cmp_61f5_vision_full.csv": "e3aa6d6ff24f71d4cbcfd144d42c02a75508715e61753af80eee7a93080d1aa0",
+        "batears_20261115_120410_cmp_61f5_frames.csv": "fa275aa4015865f3747bc9b227cfd1286e95cb55e7988d02b9dd46f3e9542128",
+        "batears_20261115_120410_cmp_61f5_vision.csv": "df17264d40aead633d313c806fb39d0f12a9cc0b8a996e318db9226fe89be1b8",
+        "batears_20261115_120410_cmp_61f5_holo.csv": "a28514861adaccdab48f0434bfaac4d71128e0ec7b207f2ecc279d16d8648645",
+        "batears_20261115_120410_cmp_61f5.json": "64eb0d9ddddbc911bcd3b38c6328d18c13663ca02086815e4251d3a750175ab1"
+      },
+      "shown_jump_gt5cm": [
+        {
+          "t_ms": 23857.0,
+          "relative_s": 0.7922999999999992,
+          "step_cm": 24.820771825227354
+        },
+        {
+          "t_ms": 26250.9,
+          "relative_s": 3.186200000000001,
+          "step_cm": 21.438811440935808
+        }
+      ],
+      "sensitivity_excluding_jump_windows": {
+        "windows": 103,
+        "excluded": 1,
+        "threshold_cm": 5,
+        "note": "diagnostic only, not adjudicated recentering and not removed from primary results",
+        "rmse_cm": [
+          2.4520313954801933,
+          3.4340237101999427,
+          2.584555042179442
+        ],
+        "zero_motion_rmse_cm": [
+          3.2613536862371597,
+          2.9332582846930224,
+          3.3199902653386015
+        ],
+        "pearson": [
+          0.6689820552467508,
+          0.20511483773023742,
+          0.6459027924559796
+        ],
+        "predicted_to_true_rms": [
+          0.7491448550830101,
+          0.8591854330557039,
+          0.7827740319990791
+        ]
+      },
+      "paired_present_frames": 369,
+      "all_range_windows": 309,
+      "in_range_windows": 104,
+      "all_range": {
+        "rmse_cm": [
+          3.437184675089729,
+          5.212671094915162,
+          5.071850640139038
+        ],
+        "zero_motion_rmse_cm": [
+          3.8515706721737804,
+          3.661292895188267,
+          7.404462622635238
+        ],
+        "pearson": [
+          0.4956485097789602,
+          -0.07358941751403911,
+          0.7694604265560145
+        ],
+        "predicted_to_true_rms": [
+          0.7144498281686409,
+          0.9403904837799021,
+          0.5241630282987954
+        ]
+      },
+      "in_range": {
+        "rmse_cm": [
+          2.475494606150773,
+          5.122772017040781,
+          2.7633064144611783
+        ],
+        "zero_motion_rmse_cm": [
+          3.2469035705835996,
+          3.0439681269377434,
+          3.4811936160291226
+        ],
+        "pearson": [
+          0.6580350660056811,
+          -0.07622454115965685,
+          0.6249373151601978
+        ],
+        "predicted_to_true_rms": [
+          0.7649689293338513,
+          1.2728996707494564,
+          0.7433437286238362
+        ]
+      },
+      "nonempty_5s_blocks": 7,
+      "within_session_rmse95_cm": [
+        [
+          1.9544863666794672,
+          3.5772833850966315
+        ],
+        [
+          1.7643566600342009,
+          8.338943100362528
+        ],
+        [
+          1.8593835120764046,
+          3.8537345090964923
+        ]
+      ],
+      "within_session_rmse_minus_zero95_cm": [
+        [
+          -1.7564104566509786,
+          -0.1268693737390214
+        ],
+        [
+          -1.084826697747498,
+          4.724656725132159
+        ],
+        [
+          -1.1900445579826722,
+          0.2322781601160968
+        ]
+      ],
+      "levelDb_p10_p50_p90": [
+        -6.2,
+        -5.0,
+        -4.1
+      ],
+      "volume_ui": 1.2,
+      "in_current_gated_training_manifest": false
+    }
+  ],
+  "holo_sessions": [
+    {
+      "session": "batears_20261115_123005_holo_61f5",
+      "seconds": 23.13,
+      "build": "bat3d.js?v=20261115122206",
+      "yReal": true,
+      "yGain": 1.184,
+      "tau": 2,
+      "log_rows": 2318,
+      "log_widths": [
+        22
+      ],
+      "has_performance_clock": true,
+      "levelDb_median": -3.8,
+      "category": "sound-only recording; no hand truth, no prompted gesture accuracy"
+    },
+    {
+      "session": "batears_20261115_123358_holo_61f5",
+      "seconds": 35.5,
+      "build": "bat3d.js?v=20261115122206",
+      "yReal": true,
+      "yGain": 1.184,
+      "tau": 2,
+      "log_rows": 3554,
+      "log_widths": [
+        22
+      ],
+      "has_performance_clock": true,
+      "levelDb_median": 0.7,
+      "category": "sound-only; first seen during this run, completion inferred from paired files and ended log; no hand truth"
+    }
+  ],
+  "no_new_categorical_scores": true,
+  "note": "Recorded113747 is linear; recorded120410 has gated-card numbers but explicit model ID absent. No paired model intervention or new training.",
+  "incomplete_bundles": [
+    {
+      "session": "batears_20261115_122157_cmp_61f5",
+      "files_present": [
+        "wav",
+        "vision.csv"
+      ],
+      "json_missing": true,
+      "holo_missing": true,
+      "vision_rows": 208,
+      "present": 151,
+      "status": "provisional bundle; completion reason unknown, not scored"
+    },
+    {
+      "session": "batears_20261115_113429_cmp_61f5",
+      "files_present": [
+        "vision_full.csv"
+      ],
+      "json_missing": true,
+      "status": "derived-only source in this Drive snapshot; listed in gated training but missing original bundle"
+    }
+  ]
+}

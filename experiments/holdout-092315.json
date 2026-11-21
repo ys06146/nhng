@@ -1,0 +1,531 @@
+{
+  "session": "20261115_092315_teach_61f5",
+  "calibration": "default (7 sittings, leave-one-out)",
+  "win_ms": 250,
+  "camera": {
+    "hfov": 78,
+    "tilt": 5,
+    "C": [
+      0,
+      0.18927699263743167,
+      0.11655959112205505
+    ]
+  },
+  "window_count": 635,
+  "rejected": {
+    "gap": 69,
+    "range": 1897,
+    "motion": 28
+  },
+  "range_limit_m": 0.45,
+  "wav": {
+    "rate": 48000,
+    "channels": 2,
+    "frames": 7081984
+  },
+  "stats": {
+    "mse": {
+      "rmse_cm": [
+        5.0838571552551075,
+        1.8084555525498691,
+        4.098127479158739
+      ],
+      "mae_cm": [
+        3.8994952667504443,
+        1.310564152188081,
+        3.105084567466312
+      ],
+      "motion_cm": [
+        6.275122097393927,
+        2.177896771017387,
+        8.091181690471727
+      ],
+      "uncentered_cosine": [
+        0.5870524467935925,
+        0.6864750266175728,
+        0.8785856870671284
+      ],
+      "size": [
+        0.5555739637808975,
+        1.0874224042267695,
+        0.7099202116872936
+      ]
+    },
+    "half": {
+      "rmse_cm": [
+        5.165440164705364,
+        2.3969157047853384,
+        3.8642534592250457
+      ],
+      "mae_cm": [
+        3.894699684918481,
+        1.8033134632297347,
+        2.911134638117544
+      ],
+      "motion_cm": [
+        6.275122097393927,
+        2.177896771017387,
+        8.091181690471727
+      ],
+      "uncentered_cosine": [
+        0.5870524467935928,
+        0.6864750266175714,
+        0.878585687067128
+      ],
+      "size": [
+        0.736135502009689,
+        1.5126045642794372,
+        0.8767514614338078
+      ]
+    },
+    "matched": {
+      "rmse_cm": [
+        5.634798317979381,
+        3.4700323323043305,
+        4.204385416858659
+      ],
+      "mae_cm": [
+        4.111631221029659,
+        2.566565326376337,
+        3.1046046130008573
+      ],
+      "motion_cm": [
+        6.275122097393927,
+        2.177896771017387,
+        8.091181690471727
+      ],
+      "uncentered_cosine": [
+        0.5870524467935927,
+        0.6864750266175722,
+        0.8785856870671285
+      ],
+      "size": [
+        0.9755878803992561,
+        2.1041623521787995,
+        1.0833382430348097
+      ]
+    }
+  },
+  "warning": "One new session, overlapping windows; fixed map feature-level displacement audit; no Kalman/display spring/filter; webcam pseudo-truth; no phone paths used.",
+  "bootstrap": {
+    "seed": 20261115,
+    "resamples": 2000,
+    "block_ms": 5000,
+    "nonempty_blocks": 24,
+    "rmse95_cm": [
+      [
+        4.315588238749497,
+        5.97461602137567
+      ],
+      [
+        2.0272093791700696,
+        2.843892079100799
+      ],
+      [
+        3.335649990280909,
+        4.489682472599486
+      ]
+    ],
+    "paired_rmse_minus_zero95_cm": [
+      [
+        -2.0069151824496614,
+        -0.1742157255315207
+      ],
+      [
+        -0.14810252408126612,
+        0.6296080247774641
+      ],
+      [
+        -5.317455250500886,
+        -3.112020759295302
+      ]
+    ],
+    "scope": "exploratory within one session; overlapping windows, not participant/device confidence intervals"
+  },
+  "pearson_half": [
+    0.5727752955249287,
+    0.6877381157586607,
+    0.8811895328565255
+  ],
+  "quality": {
+    "090503": {
+      "session": "20261115_090503_teach_61f5",
+      "duration_s": 147.52439999999999,
+      "trials": 12,
+      "completed": 12,
+      "vision_rows": 3137,
+      "present": 2994,
+      "present_pct": 95.44150462225056,
+      "hand_mismatch": 0,
+      "latency_ms_p50_p95": [
+        47.30000000000291,
+        69.20000000000437
+      ],
+      "phones_at_start": [
+        {
+          "id": "A",
+          "hz": 17000,
+          "x_right_cm": 0,
+          "h_cm": 45,
+          "z_front_cm": 40,
+          "from_h_key_cm": {
+            "right": 0,
+            "up": 43.5,
+            "toward_user": 32
+          },
+          "facing": "down",
+          "note": "아이폰  16",
+          "heard": true,
+          "level_db": 33.5
+        }
+      ],
+      "phones_end": [
+        {
+          "id": "A",
+          "hz": 17000,
+          "x_right_cm": 0,
+          "h_cm": 45,
+          "z_front_cm": 40,
+          "from_h_key_cm": {
+            "right": 0,
+            "up": 43.5,
+            "toward_user": 32
+          },
+          "facing": "down",
+          "note": "아이폰  16",
+          "heard": true,
+          "level_db": 30.7
+        }
+      ],
+      "events": [],
+      "palm_width_cm": null,
+      "video": null,
+      "source_hashes": {
+        "batears_20261115_090503_teach_61f5_audio.csv": "89939fb73ed0cdc38b69176d253f060a7f6678e1e60f505d7e708a6d3ceef1a8",
+        "batears_20261115_090503_teach_61f5_vision.csv": "f75d9860ff593027c25686777b35899a8d271a1a83d3c2dcda2bbc7630ca9622",
+        "batears_20261115_090503_teach_61f5.wav": "4704a5ed18dfedf36f4a9cd1eb89086b45b982e19f6362bb590b4085fe8b8c6e",
+        "batears_20261115_090503_teach_61f5.json": "5f7390b5ee126089344697a9b1ac14fb39a7023ce892cf0517b42f231f2717e1"
+      }
+    },
+    "092315": {
+      "session": "20261115_092315_teach_61f5",
+      "duration_s": 147.537,
+      "trials": 12,
+      "completed": 12,
+      "vision_rows": 2809,
+      "present": 2633,
+      "present_pct": 93.73442506229975,
+      "hand_mismatch": 0,
+      "latency_ms_p50_p95": [
+        42.39999999999418,
+        62.10000000000582
+      ],
+      "phones_at_start": [
+        {
+          "id": "A",
+          "hz": 17000,
+          "x_right_cm": -40,
+          "h_cm": 45,
+          "z_front_cm": 30,
+          "from_h_key_cm": {
+            "right": -40,
+            "up": 43.5,
+            "toward_user": 22
+          },
+          "facing": "down",
+          "note": "아이폰  16",
+          "heard": false,
+          "level_db": -0.4
+        }
+      ],
+      "phones_end": [
+        {
+          "id": "A",
+          "hz": 17000,
+          "x_right_cm": -40,
+          "h_cm": 45,
+          "z_front_cm": 30,
+          "from_h_key_cm": {
+            "right": -40,
+            "up": 43.5,
+            "toward_user": 22
+          },
+          "facing": "down",
+          "note": "아이폰  16",
+          "heard": false,
+          "level_db": 2.7
+        }
+      ],
+      "events": [
+        {
+          "t": 179859.9,
+          "kind": "push",
+          "speed": 0.91,
+          "strength": -0.2,
+          "simulated": false
+        },
+        {
+          "t": 189836.2,
+          "kind": "pull",
+          "speed": 0.96,
+          "strength": 12,
+          "simulated": false
+        }
+      ],
+      "palm_width_cm": null,
+      "video": {
+        "file": "batears_20261115_092315_teach_61f5.webm",
+        "frames_file": "batears_20261115_092315_teach_61f5_frames.csv",
+        "mime": "video/webm;codecs=vp8",
+        "bitrate": 5000000,
+        "bytes": 92608956,
+        "startPerf": 92793.8,
+        "stopPerf": 240401,
+        "frames_logged": 2812,
+        "err": null,
+        "local_only": true,
+        "note": "raw webcam (not mirrored), MediaRecorder; video t=0 is about startPerf (performance.now, same clock as wav.t0 and t_cap). _frames.csv has every requestVideoFrameCallback: perf_now, captureTime, expectedDisplayTime, mediaTime, presentedFrames, width, height. Never committed (.gitignore *.webm)."
+      },
+      "source_hashes": {
+        "batears_20261115_092315_teach_61f5_frames.csv": "b970bbf66bdec8a10bb05e8e028b66d38f23c059426088ac492e6aaad44cc748",
+        "batears_20261115_092315_teach_61f5.wav": "fd753a6fb70df926ad488908dc890521610e7d271d4bc7f4c7e128163753ca3b",
+        "batears_20261115_092315_teach_61f5_vision.csv": "f2ca0e6edbb3a80df8614e99bc25b4f7135d5da4118318142a5a165cb52c3a28",
+        "batears_20261115_092315_teach_61f5.json": "224ec3463cd01bf6586c4eaeb82c762288ca954ef5d97d481e11d839ff9819c7",
+        "batears_20261115_092315_teach_61f5_audio.csv": "9e9ba791c6c1b51b0ec4098d136ef323e665d1ab85ea58631385216e7bd830d0"
+      }
+    }
+  },
+  "source_main_sha": "7f2a9d4aa53eccfdde5044377a8b08d9d0db5ba6",
+  "comparison_old5_same0923": {
+    "session": "20261115_092315_teach_61f5",
+    "calibration": "default (5 sittings, leave-one-out)",
+    "win_ms": 250,
+    "camera": {
+      "hfov": 78,
+      "tilt": 5,
+      "C": [
+        0,
+        0.18927699263743167,
+        0.11655959112205505
+      ]
+    },
+    "window_count": 635,
+    "rejected": {
+      "gap": 69,
+      "range": 1897,
+      "motion": 28
+    },
+    "range_limit_m": 0.45,
+    "wav": {
+      "rate": 48000,
+      "channels": 2,
+      "frames": 7081984
+    },
+    "stats": {
+      "mse": {
+        "rmse_cm": [
+          5.321356947392976,
+          1.7040609992737945,
+          4.039676087998481
+        ],
+        "mae_cm": [
+          4.112052132706707,
+          1.2108843433252494,
+          3.044197722367753
+        ],
+        "motion_cm": [
+          6.275122097393927,
+          2.177896771017387,
+          8.091181690471727
+        ],
+        "uncentered_cosine": [
+          0.5557312171459351,
+          0.683179924452898,
+          0.8801482694254944
+        ],
+        "size": [
+          0.7229305615637465,
+          0.964139254442107,
+          0.7254534156960988
+        ]
+      },
+      "half": {
+        "rmse_cm": [
+          5.571704145346677,
+          2.24028458665873,
+          3.8492512700046397
+        ],
+        "mae_cm": [
+          4.250787187228201,
+          1.6824199970424896,
+          2.8840392583833956
+        ],
+        "motion_cm": [
+          6.275122097393927,
+          2.177896771017387,
+          8.091181690471727
+        ],
+        "uncentered_cosine": [
+          0.555731217145935,
+          0.683179924452898,
+          0.8801482694254944
+        ],
+        "size": [
+          0.8675166738764959,
+          1.4076433114854765,
+          0.8487804963644354
+        ]
+      },
+      "matched": {
+        "rmse_cm": [
+          6.040658295047546,
+          3.363443412434154,
+          3.9636432700055173
+        ],
+        "mae_cm": [
+          4.510408992887053,
+          2.498253923058822,
+          2.9531642210623237
+        ],
+        "motion_cm": [
+          6.275122097393927,
+          2.177896771017387,
+          8.091181690471727
+        ],
+        "uncentered_cosine": [
+          0.5557312171459351,
+          0.6831799244528981,
+          0.8801482694254948
+        ],
+        "size": [
+          1.0410200086517942,
+          2.0439752194172676,
+          1.0011257136606162
+        ]
+      }
+    },
+    "warning": "One new session, overlapping windows; fixed map feature-level displacement audit; no Kalman/display spring/filter; webcam pseudo-truth; no phone paths used."
+  },
+  "historical_frozen5_0905": {
+    "session": "20261115_090503_teach_61f5",
+    "calibration": "default (5 sittings, leave-one-out)",
+    "win_ms": 250,
+    "camera": {
+      "hfov": 78,
+      "tilt": 5,
+      "C": [
+        0,
+        0.18927699263743167,
+        0.11655959112205505
+      ]
+    },
+    "window_count": 2403,
+    "rejected": {
+      "gap": 64,
+      "range": 279,
+      "motion": 244
+    },
+    "range_limit_m": 0.45,
+    "wav": {
+      "rate": 48000,
+      "channels": 2,
+      "frames": 7081472
+    },
+    "stats": {
+      "mse": {
+        "rmse_cm": [
+          4.124416454674209,
+          2.5433975637960606,
+          4.407149033661884
+        ],
+        "mae_cm": [
+          3.1000535769464777,
+          1.7305464219748434,
+          3.250221444704599
+        ],
+        "motion_cm": [
+          4.511514979857199,
+          3.1297497467100572,
+          5.241859127817388
+        ],
+        "uncentered_cosine": [
+          0.4316098808652168,
+          0.613716765282496,
+          0.5596256656825686
+        ],
+        "size": [
+          0.5800836418915578,
+          0.4212287637283151,
+          0.7012568880950026
+        ]
+      },
+      "half": {
+        "rmse_cm": [
+          4.240987571677666,
+          2.471022878853558,
+          4.554265171127728
+        ],
+        "mae_cm": [
+          3.186905394989265,
+          1.7877432780472255,
+          3.3387132499811756
+        ],
+        "motion_cm": [
+          4.511514979857199,
+          3.1297497467100572,
+          5.241859127817388
+        ],
+        "uncentered_cosine": [
+          0.4316098808652167,
+          0.6137167652824964,
+          0.5596256656825688
+        ],
+        "size": [
+          0.6961003702698686,
+          0.6149939950433403,
+          0.8204705590711526
+        ]
+      },
+      "matched": {
+        "rmse_cm": [
+          4.458634937463631,
+          2.6210671058497237,
+          4.8423315793132975
+        ],
+        "mae_cm": [
+          3.331023297139311,
+          1.9947705779867084,
+          3.540975422215038
+        ],
+        "motion_cm": [
+          4.511514979857199,
+          3.1297497467100572,
+          5.241859127817388
+        ],
+        "uncentered_cosine": [
+          0.4316098808652166,
+          0.6137167652824971,
+          0.5596256656825697
+        ],
+        "size": [
+          0.8353204443238427,
+          0.8930049791040278,
+          0.9677345055711043
+        ]
+      }
+    },
+    "warning": "One new session, overlapping windows; fixed map feature-level displacement audit; no Kalman/display spring/filter; webcam pseudo-truth; no phone paths used."
+  },
+  "range_audit": {
+    "vision_present_rows": 2633,
+    "outside45_rows": 1664,
+    "distance_cm_p10_p50_p90": [
+      27.90220832883465,
+      49.80649525851109,
+      72.32563441388685
+    ],
+    "ud_present_rows": 140,
+    "ud_outside45_rows": 140,
+    "warning": "PnP proxy with assumed HFOV and blank palm width; not physically measured distance. Endpoint filtering changes evaluated motion composition."
+  }
+}

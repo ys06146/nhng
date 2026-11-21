@@ -1,0 +1,134 @@
+{
+  "source_main_sha": "03ef39d52bcb46ca6735d480b64b9443c9b097a1",
+  "scope": "deterministic synthetic worklet-message regression only; no recognition accuracy or real-WAV parity claim",
+  "parity": {
+    "learned": {
+      "frames": 1920,
+      "max_raw_diff_m": 0
+    },
+    "gated": {
+      "frames": 1920,
+      "max_raw_diff_m": 0
+    }
+  },
+  "seqg": {
+    "frames": 1920,
+    "finite": true,
+    "default_model": "seqg",
+    "sittings": [
+      "035336",
+      "040340",
+      "040721",
+      "043301",
+      "044652",
+      "082736",
+      "090503",
+      "092315",
+      "110640c",
+      "111016c",
+      "111911c",
+      "112252c",
+      "112658c",
+      "113429c",
+      "113747c",
+      "120410c",
+      "123938c"
+    ],
+    "amp": {
+      "motion": [
+        5.16,
+        3.55,
+        5.68
+      ],
+      "corr": [
+        0.78,
+        0.61,
+        0.7
+      ],
+      "modes": {
+        "mse": {
+          "k": [
+            1,
+            1,
+            1
+          ],
+          "rms": [
+            3.25,
+            2.8,
+            4.05
+          ],
+          "size": [
+            0.77,
+            0.64,
+            0.67
+          ]
+        },
+        "half": {
+          "k": [
+            1.14,
+            1.253,
+            1.219
+          ],
+          "rms": [
+            3.29,
+            2.88,
+            4.1
+          ],
+          "size": [
+            0.88,
+            0.8,
+            0.82
+          ]
+        },
+        "matched": {
+          "k": [
+            1.299,
+            1.569,
+            1.486
+          ],
+          "rms": [
+            3.45,
+            3.12,
+            4.38
+          ],
+          "size": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "longer": {
+        "1000": [
+          {
+            "corr": 0.773,
+            "rms": 5.14
+          },
+          {
+            "corr": 0.522,
+            "rms": 4.54
+          },
+          {
+            "corr": 0.667,
+            "rms": 5.5
+          }
+        ],
+        "2000": [
+          {
+            "corr": 0.636,
+            "rms": 5.94
+          },
+          {
+            "corr": 0.474,
+            "rms": 4.94
+          },
+          {
+            "corr": 0.562,
+            "rms": 6.32
+          }
+        ]
+      }
+    },
+    "note": "alpha 11/15 14:00: per tick dPos = W . [each path's change over 7 bins of the last 1 s (bin sum / bin length, bin-major, path-minor), then ctx_i * dD_p for the gated model's 12 ctx (z-scored with mu/sd), i-major]; ridge on 0.25 / 1 / 2 s webcam windows (weights 1 / 0.25 / 0.125); held out over 17 sittings"
+  }
+}
